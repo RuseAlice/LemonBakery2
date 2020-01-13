@@ -1,0 +1,66 @@
+header{
+    background-image: url(imagini/patiserie-cover.png);
+    background-size:cover;
+    background-position: center;
+    height:100vh;
+    margin-top:0;
+    padding-top:0;
+    z-index:-2;
+    background-attachment: fixed;
+}
+body{
+    background-color: rgba(72, 81, 88, 0.459);
+}
+
+.section-meals{
+    padding:0;
+}
+.meals-showcase{
+    list-style:none;
+    width:100%;
+    
+}
+.meals-showcase li{
+    display:block;
+    float:left;
+    width:25%;
+    padding:0;
+}
+.meal-photo{
+    width:100%;
+    margin:0;
+    overflow:hidden;
+    /*background-color:#000;*/
+    
+    background:black;
+    /*background-image: url("imagini/ecleruri.png");*/
+}
+#patis8{
+    background-image: url("imagini/bgpatiserie8.jpg");
+}
+.meal-photo img{
+    opacity:1;
+    width:100%;
+    max-height:300px;
+    transform:scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+.meal-photo img:hover{
+    transform:scale(1.03);
+    opacity:0;
+  
+    
+}
+.bestseller div{
+    padding:20%;
+    margin:10px;
+    text-align: center;
+
+}
+ol{
+    font-size: 30px;
+    
+}
+h2{
+font-size: xx-large;
+}

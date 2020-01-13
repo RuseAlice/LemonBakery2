@@ -1,0 +1,41 @@
+@media only screen and (max-width: 1200px){
+    .logo {
+        padding:2%;
+        width:15%;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 1023px){
+    .logo {
+        padding:2%;
+        width:15%;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 767px){
+    .logo {
+        padding:2%;
+        width:17%;
+        height: auto;
+    }
+    header{
+        
+        width: 100vw;
+    }
+}
+@media only screen and (max-width: 480px){
+    .logo {
+        padding:2%;
+        width:20%;
+        height: auto;
+
+    }
+    .btn-dropdown{
+        font-size:22px;
+    }
+    header{
+        
+        width: 174vw;
+    }
+}
+

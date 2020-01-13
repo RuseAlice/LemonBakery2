@@ -1,0 +1,99 @@
+
+header
+{
+    background-image: linear-gradient(rgba(232, 20, 216, 0.21), rgba(245, 60, 217, 0.19)), url(imagini/Cafebg.jpg);
+    background-size:cover;
+    background-position: center;
+    height:100vh;
+    margin-top:0;
+    padding-top:0;
+    z-index:-2;
+    
+}
+body{
+   /* background-image: linear-gradient(rgba(232, 20, 216, 0.21), rgba(245, 60, 217, 0.19)), url(imagini/Cafebg.jpg);
+    background-size:cover;
+    background-position: center;
+    height:100vh;
+    background-attachment: fixed;*/
+    margin:0;
+    padding:0;
+    
+}
+h1{
+    margin-top:0;
+    margin-bottom:20px;
+    color:rgb(218, 66, 124);
+    font-size:300%;
+    word-spacing:4px;
+    letter-spacing:1px;
+    font-weight:300;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left:0;
+    
+}
+
+.btn-start:hover,
+.btn-start:active{
+/*border:2px solid rgba(92, 4, 16, 0.774);*/
+    color:rgba(100, 9, 21, 0.801);
+    
+/*
+    background-image: linear-gradient(rgba(232, 20, 216, 0.21), rgba(245, 60, 217, 0.19)), url(imagini/Coffee-Cupcakes-1.jpg);
+    background-size:cover;
+    background-position: center;
+    height:100vh;
+    margin-top:0;
+    padding-top:0;
+    z-index:-2;
+    background-attachment: fixed;*/
+
+}
+.btn-start{
+    font-size: 300%;
+}
+.btn-start, 
+.btn:visited{
+    padding-top: 30vh;
+    color:rgba(150,90,117, 1);
+    /*border:1px solid rgba(236, 51, 60, 0.7);*/
+}
+
+.btn:link{
+    display:inline-block;
+    padding:10px 30px;
+    
+    text-decoration:none;
+    /*border-radius: 100px;font-weight:400%;
+    height:100%;
+    width: 100%;
+    position:absolute;
+    color:#fff;
+    transition:background-color 0.2s, border 0.2s, color 0.2s;*/
+}
+.texthero-box ul li{
+    
+    width:10%;
+    list-style: none;
+    
+}
+
+
+
+.hero-text-box{
+    margin-top:1%;
+    position:absolute;
+    width: 70%;
+    height:100vh;
+}
+.hero-text-box ul{
+    width:70%;
+    height:50px;
+    margin:0;
+    padding:0;
+    /*box-sizing:box-border;*/
+    display:flex;
+    
+
+}

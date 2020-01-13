@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1200px){
+    .meals-showcase li{
+        width:75%;
+        height:auto;
+        text-align:center;
+        padding-left: 200px;
+    }
+    .section-meals section{
+        width:175%;
+        padding:0 100px;
+    }
+}
+@media only screen and (max-width: 1023px){
+
+}
+
+@media only screen and (max-width: 767px){
+
+    header{
+        height: 100vh;
+    }
+  p, h4{
+    padding-left: 200px;
+  }
+    .meals-showcase li{
+        width:75%;
+        height:auto;
+        text-align:center;
+        padding-left: 200px;
+    }
+    .section-meals section{
+        width:175%;
+        padding:0 100px;
+    }
+    
+}
+@media only screen and (max-width: 480px){
+.hero-text-box{
+    font-size:150%;
+}
+.cofetarie{width:500px;}
+.hero-text-box h1, h3{
+    padding-top:10%;
+}
+header{
+    height: 174vh;
+}
+footer{
+
+    width:175%;
+    align-self: flex-end;
+}
+}

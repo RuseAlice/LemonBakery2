@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lemon Bakery - Contact</title>
+        <link type="text/css" rel="stylesheet" href="style-general.css"/>
+        <link type="text/css" rel="stylesheet" href="style-contact.css"/>
+        <link type="image/png" rel="shortcut icon" href="imagini/pink-lemon.png"/>
+        <link type="text/css" rel="stylesheet" href="queries-general.css">
+        <link type="text/css" rel="stylesheet" href="queries-contact.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <nav>
+                
+                <img class="logo" src="imagini/pink-lemon.png" alt="logo">
+            <div class="dropdown">
+                <button class="btn-dropdown">Meniu</button>
+                <div class="dropdown-continut">
+                    <ul>
+                        <li><a href="index.html">Acasa</a></li>
+                        <li><a href="cofetarie.html">Cofetarie</a></li>
+                        <li><a href="patiserie.html">Patiserie</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+            </nav>
+       </header>
+       
+       <h3 id="titlu">Lasa-ne o sugestie de preparat!</h3>
+        <div class="container-grid">
+            <div class="obiect-grid ob1">
+            <h2>Retete propuse de tine:</h2>
+            Aici apar retetele
+            <div class="retete">
+                
+
+            </div>
+            
+
+            </div>
+                
+            <div class="obiect-grid ob2">
+                <form method="POST">
+                        <h2>Preparatul tau</h2>
+                    <ul>
+                        <li>  Denumire</li>
+                        <li> <input type="text" class="btn" name="denumire" value="Denumirea preparatului"> </li>
+                        <li> Reteta </li>
+                        <li> <textarea rows="4" cols="50" name="reteta" >Scrie aici reteta...</textarea> </li>
+                        
+                        <li><button type="button" id="submit">Trimite</button></li>
+                    </ul>
+                
+                </form>
+                <h2>Alege optiunile de afisare:</h2>
+                <ul>
+                    <li> Culoare: <button id="culoare">Imi place!</button></li>
+                    <li> Dimensiune text:</li>
+                    <li> -<input type=range name="dimensiune" min="10" max="28" onchange="schimbareRange(this.value)">+</li>>
+                </ul>
+
+            
+            </div>
+        </div>
+<footer>
+    
+        
+            <div class="row">
+                    <ul class="social-links">
+                            <li><a href="https://www.facebook.com/"><ion-icon name="logo-facebook" class="fb"></ion-icon></a></li>
+                             <li><a href="https://about.twitter.com/en_us/lets-go-twitter.html"><ion-icon name="logo-twitter" class="tw"></ion-icon></a></li>
+                             <li><a href="https://www.instagram.com/"><ion-icon name="logo-instagram" class="ig"></ion-icon></a></li>
+                    </ul>
+                <p>
+                    Copyright &copy; 2019 by Lemon Bakery. All rights reserved.
+                    
+                </p>
+                <p> &#9825;</p>
+            
+            </div>
+            
+        
+</footer>
+
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js" type="module"></script>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js" nomodule=""></script>
+<script type="text/javascript" src="sugestii-logat.js"> </script>
+<script type="text/javascript" src="sugestii.js"></script>
+    </body>
+</html>
+
+<!--
+creeaza cont   |-> suntem logati in cont -> bun venit, Gicu!-> scrie reteta->afiseaza in stanga postarea
+intra in cont  |
+
+-->

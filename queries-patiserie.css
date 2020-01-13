@@ -1,0 +1,46 @@
+@media only screen and (max-width: 1200px){
+
+}
+@media only screen and (max-width: 1023px){
+
+}
+
+@media only screen and (max-width: 767px){
+
+}
+@media only screen and (max-width: 480px){
+    .logo {
+        padding:2%;
+        width:20%;
+        height: auto;
+
+    }
+    .btn-dropdown{
+        font-size:22px;
+    }
+    .meals-showcase li{
+        width:100%;
+        padding-left: 200px;
+    }
+    p, h2, ol{
+        padding-left: 200px;
+      }
+   .meals-showcase li{
+       width:100%;
+       text-align: center;
+   }
+   .section-meals section{
+       width:175%;
+       padding:0 100px;
+   }
+   .patiserie p{
+       width:400px;
+   }
+  
+footer{
+
+    width:175%;
+    align-self: flex-end;
+    padding-left:2px;
+}
+}
